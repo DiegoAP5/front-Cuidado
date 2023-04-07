@@ -1,0 +1,97 @@
+
+.navbarDistributed{
+  background: #b0d1b2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  height: 80px;
+  display: flex;
+  padding: 0 25px;
+}
+
+.navbarDistributedForm{
+  padding-left: 100px;
+
+  background: #191716;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  height: 80px;
+  display: flex;
+}
+
+.logoContainer{
+  
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+
+
+.navbarLogoCloth{
+    border-radius: 10px;
+    width: 50%;
+    align-items:center;
+    margin: 0px auto;
+    
+  }
+
+.optionsContainer{
+    padding: 0 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 60%;
+}
+
+
+.actionButton{
+  background-color: #fb7968;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  margin: 5px;
+}  
+
+
+.actionButtonLogout{
+  background-color: #f9c593;
+  color: white;
+  border-radius: 5px;
+}
+
+.actionButtonLogout > *{
+  font-size: 20px;
+  
+}
+
+
+
+.actionButton:hover{
+  filter:brightness(1.3);
+  background-color: rgb(206, 0, 0);
+  cursor: pointer;
+}
+
+span.textButton{
+    color: white;
+}
+
+
+
+
+.userName{
+  line-height: 60px;
+  color: white;
+  margin: 0 5px;
+}
+

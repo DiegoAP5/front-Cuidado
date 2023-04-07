@@ -1,0 +1,110 @@
+.contenedorCuadro{
+    width: 100%;    
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.containerLetter{
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: rgb(237, 237, 237) 2px solid;
+    width: 300px;
+}
+
+.cuadro{
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 20%);
+
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.ButtonForm {
+    
+    margin: 5px 40%;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #562155;
+    border-radius: 3px;
+    border: 2px solid white;
+    font: bold 16px sans-serif;
+    cursor: pointer;
+  }
+  
+  .ButtonForm:hover {
+    color: #191716;
+    border: #562155 2px solid;
+    background-color: #ffffff;
+  }
+
+.imagen{
+    width: 150px;
+    height: 150px;
+    align-items:center;
+}
+
+.imagen:hover{
+    transition: 300ms;
+    box-shadow: 0 3px 13px 1px darkorchid;
+}
+
+.title{
+    padding: 10px;
+    font-size: 40px;
+    font: bold sans-serif;
+}
+
+.upPart{
+    display: flex;
+    border-bottom: 1px solid grey;
+    background-color: rgb(237, 237, 237);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.letter{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.letterTop{
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+.container{
+    width: 100%;
+    padding: 15px;
+    justify-content: center;
+    min-height: 80vh;
+    align-items: flex-start;
+    display: flex;
+}
+
+.notOrders{
+    margin: 40px 0;
+    font-size: 32px;
+}
+
+.description{
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.downPart{
+    padding: 20px;
+    display: flex;
+}

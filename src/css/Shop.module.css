@@ -1,0 +1,267 @@
+.ContentTitle{
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  margin-top: 2px;
+  }
+  
+  .ContentQuantity{
+  
+    font-size: 15px;
+  
+  }
+  .shopContainer {
+    min-height: 65vh;
+  
+  }
+  
+  .DeleteIcon {
+  
+    font-size: 40px;
+    color: rgb(197, 30, 27);
+  
+  }
+  
+  .deleteButton{
+    background-color: transparent;
+    border: transparent;
+  }
+  
+  .DeleteIcon:hover {
+  
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .ContainerBookDeleteCont {
+    width: 25%;
+    border-bottom: rgb(237, 237, 237) 2px solid;
+    border-right: rgb(237, 237, 237) 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ContainerBookSubCont {
+    width: 25%;
+    border-bottom: rgb(237, 237, 237) 2px solid;
+    border-right: rgb(237, 237, 237) 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+  
+  
+  
+  .ContainerBookPriceCont {
+    width: 25%;
+    border-bottom: rgb(237, 237, 237) 2px solid;
+    border-right: rgb(237, 237, 237) 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+  
+  
+  
+  .ContainerImgCont {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    border-bottom: rgb(237, 237, 237) 2px solid;
+    border-right: rgb(237, 237, 237) 1px solid;
+  
+  }
+  
+  
+  
+  .ContentImg {
+    height: 70%;
+    border-radius: 5px;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 20%);
+    margin: 2px 3;
+  }
+  
+  
+  
+  .ContainerBookContent {
+    display: flex;
+    width: 100%;
+    height: 300px;
+  }
+  
+  
+  .ContainerImg {
+    width: 25%;
+    text-align: center;
+    border-bottom: rgb(237, 237, 237) 2px solid;
+    border-right: rgb(237, 237, 237) 1px solid;
+    margin: 10px 0;
+  
+  }
+  
+  .ContainerBookPrice {
+    width: 25%;
+    text-align: center;
+    border-bottom: rgb(237, 237, 237) 2px solid;
+    border-right: rgb(237, 237, 237) 1px solid;
+    margin: 10px 0;
+  
+  }
+  
+  .ContainerBookSub {
+    width: 25%;
+    text-align: center;
+    border-bottom: rgb(237, 237, 237) 2px solid;
+    border-right: rgb(237, 237, 237) 1px solid;
+    margin: 10px 0;
+  }
+  
+  .ContainerBookDelete {
+    margin: 10px 0;
+    width: 25%;
+    text-align: center;
+    border-bottom: rgb(237, 237, 237) 2px solid;
+    border-right: rgb(237, 237, 237) 1px solid;
+  }
+  
+  .ContainerBookTitle {
+    display: flex;
+  }
+  
+  .ContainerPolicy {
+  
+    text-align: justify;
+    margin: 10px 40px;
+  }
+  
+  .ButtonForm {
+    
+    margin: 5px 40%;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #562155;
+    border-radius: 3px;
+    border: 2px solid white;
+    font: bold 16px sans-serif;
+    cursor: pointer;
+  }
+  
+  .ButtonForm:hover {
+    color: #191716;
+    border: #562155 2px solid;
+    background-color: #ffffff;
+  }
+  
+  
+  .ContainerButton {
+  
+    justify-content: center;
+    border-top: rgb(237, 237, 237) 1px solid;
+  
+  
+  }
+  
+  .ContainerTotal {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 40px;
+  
+  
+  
+  }
+  
+  .ContainerSent {
+  
+    display: flex;
+    width: 100%;
+    border-top: rgb(237, 237, 237) 1px solid;
+    border-bottom: rgb(237, 237, 237) 1px solid;
+  
+  }
+  
+  .ContainerTextSent {
+  
+    text-align: center;
+    width: 60%;
+    margin: 10px 5px;
+    padding: 5px 5px;
+  }
+  
+  .ContainerPriceSent {
+  
+    width: 40%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto 40px;
+  }
+  
+  .ContainerSubtotal {
+  
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 40px;
+  
+  }
+  
+  
+  .ContainerSummary {
+  
+    border: rgb(237, 237, 237) 2px solid;
+    text-align: center;
+    font: bold 16px sans-serif;
+    background-color: #562155;
+    color: white;
+  
+  
+  }
+  
+  
+  
+  .ContainerTitle {
+    border-bottom: rgb(237, 237, 237) 2px solid;
+    margin: 10px auto;
+    width: 20%;
+    text-align: center;
+    font-size: 40px;
+    font: bold sans-serif;
+  }
+  
+  .ContainerForm {
+    
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    
+  }
+  
+  .ContainerSell {
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+  
+  }
+  
+  .ContainerBook {
+  
+    width: 60%;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 20%);
+    margin: 20px auto;
+    border-radius: 5px;
+  
+  }

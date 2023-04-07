@@ -1,0 +1,12 @@
+
+.content{
+    padding: 20px 20px;
+}
+
+.imgCarrousel{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    z-index: -20;
+}

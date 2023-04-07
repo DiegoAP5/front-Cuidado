@@ -1,0 +1,187 @@
+.buyingContainer{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contents{
+    width: 40%;
+    padding: 40px 0;
+  
+  }
+  
+  
+  .contents > * {
+    margin-bottom: 40px;
+  }
+  
+  .title{
+    font-size: 26px;
+  }
+  
+  .cardData{
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .cardData > * {
+    margin-bottom: 40px;
+  }
+  
+  .contents input{
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .cardNumberInput{
+    width: 500px;
+  }
+  
+  .countryInput{
+    width: 500px;
+  }
+  
+  .twice{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    padding: 0;
+  }
+  
+  .twice input {
+    width: 245px;
+  }
+  
+  /*---------------------------------*/
+  
+  .aside{
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .ContainerSell {
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    
+  }
+  
+  .ContainerPolicy {
+  
+      text-align: justify;
+      margin: 10px 40px;
+    }
+    
+    .ButtonForm {
+    
+      text-decoration: none;
+      padding: 15px 25px;
+      font-weight: 600;
+      font-size: 20px;
+      color: #ffffff;
+      background-color: #0146b6;
+      border-radius: 3px;
+      border: 2px solid white;
+      font: bold 16px sans-serif;
+      cursor: pointer;
+    }
+    
+    .ButtonForm:hover {
+      color: #0146b6;
+      border: #0146b6 2px solid;
+      background-color: #ffffff;
+    }
+    
+    
+    .ContainerButton {
+    
+      justify-content: center;
+      border-top: rgb(237, 237, 237) 1px solid;
+    
+    
+    }
+    
+    .ContainerTotal {
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 40px;
+    
+    
+    
+    }
+    
+    .ContainerSent {
+    
+      display: flex;
+      width: 100%;
+      border-top: rgb(237, 237, 237) 1px solid;
+      border-bottom: rgb(237, 237, 237) 1px solid;
+    
+    }
+    
+    .ContainerTextSent {
+    
+      text-align: center;
+      width: 60%;
+      margin: 10px 5px;
+      padding: 5px 5px;
+    }
+    
+    .ContainerPriceSent {
+    
+      width: 40%;
+      display: flex;
+      flex-direction: row-reverse;
+      margin: auto 40px;
+    }
+  
+    .articlesContainer{
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+    }
+  
+    .articles{
+      display: flex;
+      height: 80px;
+      width: 100%;
+      padding: 5px;
+    }
+  
+    .articles img{
+      padding: 0 5px;
+      height: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      border-radius: 10%;
+    }
+  
+    .ContainerSubtotal {
+  
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 40px;
+    
+    }
+    
+    
+    .ContainerSummary {
+    
+      border: rgb(237, 237, 237) 2px solid;
+      text-align: center;
+      font: bold 16px sans-serif;
+      background-color: #0146b6;
+      color: white;
+    
+    
+    }

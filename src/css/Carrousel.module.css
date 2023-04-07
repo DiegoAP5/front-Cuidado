@@ -1,0 +1,33 @@
+.bodyDistributed{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0 1px 1px 0 rgba(170, 16, 16, 0.12);
+    width: 100%;
+    font: bold 16px sans-serif;
+    margin: 40px 0;
+    padding: 10px 0;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;    
+}
+
+.clothes{
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: auto;
+}
+.cloth{
+    width:20%;
+    margin: 0 2.5%;
+  
+}
+
+.cloth > *{
+    margin: auto;
+}
+

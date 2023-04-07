@@ -1,0 +1,104 @@
+.loginContainer {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+    background-image: url("https://pixabay.com/get/g613e772e958606dca577397351f108dbdf6c5bbe097a306d400c3271caa950dfa9473dd41b93c1a84ce696502fb55b99d6cd36031c3ab437776f32d9a1da7c0dd6d16573973909de2b2c19edd9cd6073_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+
+
+.login {
+    padding: 15px;
+    background: #c66e3f;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(188, 188, 188, 0.2) 0px 2px 8px 0px;
+
+}
+
+.titleLogin {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    height: 80%;
+}
+
+
+
+
+.label {
+    margin-top: 40px;
+    color: white;
+}
+
+.label span {
+    padding: 0 10px;
+}
+
+.input {
+
+    background: transparent;
+    border: none !important;
+    border-bottom: 2px solid !important;
+    outline: none;
+    color: white;
+
+}
+
+.label input[type=submit] {
+    background-color: #f77c17;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.label input[type=submit]:active {
+    filter: brightness(.8);
+    background-color: #bb8a0d;
+    cursor: pointer;
+}
+
+label span,
+label input {
+    font-size: 16px;
+}
+
+.advice {
+    color: rgb(255, 94, 94);
+    font-size: 14px;
+}
+
+.register {
+    font-size: 12px;
+    color: white;
+    margin-top: 30px;
+}
+
+.register:hover {
+    border-bottom: 1px solid white;
+}
+
+.register span {
+    padding: 0 5px;
+    color: rgb(0, 238, 255)
+}

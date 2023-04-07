@@ -1,0 +1,11 @@
+.notFound{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notFound *{
+    margin-left: 10px;
+    font-size: 32px;
+}
