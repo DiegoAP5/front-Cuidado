@@ -27,7 +27,6 @@ function Register() {
             },
             body: JSON.stringify({
                 name: formData.get('name'),
-                cardNumber: formData.get('cardNumber'),
                 email: formData.get('email'),
                 password: formData.get('password'),
             })
@@ -93,15 +92,6 @@ function Register() {
                             type="email"
                             name='email'
                             id='email'
-                            required
-                        />
-                    </label>
-                    <label className={styles.label}>
-                        <span>Card Number</span>
-                        <input className={styles.input}
-                            type="text"
-                            name='cardNumber'
-                            id='cardNumber'
                             required
                         />
                     </label>
