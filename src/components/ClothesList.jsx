@@ -10,7 +10,7 @@ const ClothesList = ({ clothes }) => {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user-info")))
 
   useEffect(() => {
-    fetch('http://localhost:8080/cloth')
+    fetch('http://44.213.39.192:8080/cloth')
       .then((response) => response.json())
       .then((data) => setCloths(data.data));
   }, []);

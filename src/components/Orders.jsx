@@ -16,7 +16,7 @@ function Orders() {
 
 
     useEffect(() => {
-        fetch('http://localhost:8080/order/user/' + user.id,{
+        fetch('http://44.213.39.192:8080/order/user/' + user.id,{
             headers: {
                 'Content-Type': 'application/json',
              }
@@ -37,7 +37,7 @@ function Orders() {
     function handleSubmit(e) {
         e.preventDefault();
         const formData = new FormData(form.current)
-        fetch('http://localhost:8080/refund', {
+        fetch('http://44.213.39.192:8080/refund', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ function Orders() {
 
 
     function getData(id) {
-        fetch('http://localhost:8080/cloth')
+        fetch('http://44.213.39.192:8080/cloth')
             .then(response => response.json())
             .then(data => setClothes(data.data))
 

@@ -12,8 +12,6 @@ function FormLogin() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
-  const [bearerToken, setBearerToken] = useState()
   const [user, setUser] = useState();
   const [authorities, setAuthorities] = useState();
   
@@ -22,7 +20,7 @@ function FormLogin() {
   const login = (e) => {
     e.preventDefault();
 
-    fetch('http://localhost:9292/auth/token', {
+    fetch('http://44.215.26.31:8080/auth/token', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -43,7 +41,7 @@ function FormLogin() {
 
 
   const GetUser = () => {
-    fetch(`http://localhost:8080/user/email/${email}`)
+    fetch(`http://44.213.39.192:8080/user/email/${email}`)
       .then(res => res.json())
       .then(data => {
         setUser(data.data)

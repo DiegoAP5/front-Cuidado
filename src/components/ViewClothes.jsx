@@ -37,7 +37,7 @@ function VistaLibro() {
 
     useEffect(() => {
         
-        fetch('http://localhost:8080/cloth/' + nCloth)
+        fetch('http://44.213.39.192:8080/cloth/' + nCloth)
             .then(response => response.json())
             .then(data => setCloth(data.data));
             window.scrollTo(0,0)
@@ -55,7 +55,7 @@ function VistaLibro() {
         }
         else {
 
-            fetch('http://localhost:8080/order', {
+            fetch('http://44.213.39.192:8080/order', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -89,7 +89,7 @@ function VistaLibro() {
     const Shop = (e) => {
         e.preventDefault();
 
-        fetch('http://localhost:8080/order', {
+        fetch('http://44.213.39.192:8080/order', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

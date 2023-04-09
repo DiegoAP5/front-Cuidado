@@ -20,7 +20,7 @@ function Register() {
 
         const formData = new FormData(form.current);
 
-        fetch('http://localhost:8080/user', {
+        fetch('http://44.213.39.192:8080/user', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -29,6 +29,7 @@ function Register() {
                 name: formData.get('name'),
                 email: formData.get('email'),
                 password: formData.get('password'),
+                cardNumber: formData.get('cardNumber')
             })
         })
         .then ((responseHttp) => {
@@ -36,6 +37,23 @@ function Register() {
             setStatus(responseHttp.status)
             
             })
+
+    userCreated()
+
+    fetch('http://44.215.26.31:8080/auth/register', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+              name: formData.get('name'),
+              email: formData.get('email'),
+              password: formData.get('password'),
+          })
+      })
+      .then ((responseHttp) => {
+          setStatus(responseHttp.status)
+          })
 
     }
 
@@ -101,6 +119,15 @@ function Register() {
                             type="password"
                             name='password'
                             id='password'
+                            required
+                        />
+                    </label>
+                    <label className={styles.label}>
+                        <span>Tarjeta</span>
+                        <input className={styles.input}
+                            type="text"
+                            name='cardNumber'
+                            id='cardNumber'
                             required
                         />
                     </label>

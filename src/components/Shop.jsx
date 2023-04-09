@@ -15,7 +15,7 @@ function Shop() {
    const [orderId, setOrderId] = useState([]);
 
    useEffect(() => {
-      fetch('http://localhost:8080/order/user/' + user.id + '/status/inProcess', {
+      fetch('http://44.213.39.192:8080/order/user/' + user.id + '/status/inProcess', {
          headers: {
             'Content-Type': 'application/json',
          }
@@ -36,7 +36,7 @@ function Shop() {
    function buyAll(e) {
       e.preventDefault()
       const formData = new FormData(form.current)
-      fetch('http://localhost:8080/send', {
+      fetch('http://44.213.39.192:8080/send', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -64,7 +64,7 @@ function Shop() {
          timer: 1500
       })
 
-      fetch('http://localhost:8080/order/'+formData.get('id'), {
+      fetch('http://44.213.39.192:8080/order/'+formData.get('id'), {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -80,7 +80,7 @@ function Shop() {
    }
 
    function getData(id) {
-      fetch('http://localhost:8080/cloth')
+      fetch('http://44.213.39.192:8080/cloth')
          .then(response => response.json())
          .then(data => setCloths(data.data))
 
